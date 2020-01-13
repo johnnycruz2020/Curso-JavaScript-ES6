@@ -1,3 +1,5 @@
+// Modulo 01
+
 //Desafio 01
 
 class Usuario {
@@ -173,3 +175,24 @@ const usuario = {
 };
 
 console.log(usuario);
+
+// Modulo 02
+
+//Desafio 1.1
+
+import ClasseUsuario from './functions';
+
+ClasseUsuario.info();
+
+//Desafio 1.2
+
+import { idade } from './functions';
+
+alert(idade);
+
+//Desafio 1.3
+
+import ClasseUsuario, { idade as IdadeUsuario } from './functions';
+
+alert(IdadeUsuario);
+ClasseUsuario.info();

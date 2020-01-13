@@ -1,3 +1,4 @@
+// Conceitos
 /* 
 	//Classes
 
@@ -90,6 +91,7 @@ const teste = () => ({ nome: 'Johnny' });
 console.log(teste());
 
 */
+
 //Valores Padrão
 
 /*
@@ -100,6 +102,7 @@ console.log(soma(1));
 console.log(soma());
 
 */
+
 //Desestruturação de Objetos
 
 /*
@@ -125,6 +128,7 @@ console.log(nome);
 console.log(idade);
 console.log(cidade);
 */
+
 // REST
 
 /*
@@ -154,6 +158,7 @@ function soma(...params) {
 
 console.log(soma(1,3));
 */
+
 // SPREAD
 
 /*
@@ -176,6 +181,7 @@ const usuario2 = { ...usuario1, nome: 'Diego' };
 console.log(usuario2);
 
 */
+
 //Template Literals
 
 /*
@@ -186,6 +192,7 @@ const idade = 23;
 //console.log('Meu nome é ' + nome + ' e tenho ' + idade + ' anos');
 console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
 */
+
 //Object Short Syntax
 
 /*
@@ -202,5 +209,30 @@ const usuario = {
 console.log(usuario);
 
 */
+
+// Webpack Server
+
+
+//import/export
+/*
+import soma, { sub } from ';/funcoes';
+//import somaFunction from './funcoes';
+//import * as funcoes from './funcoes';
+
+console.log(soma(1,2));
+console.log(sub(4,2));
+//console.log(funcoes.sub(4,2));
+*/
+
+//webpack dev server
+
+//alert('Hello World');
+
 //Desafios (Colar o desafio do "desafios.js" apartir daqui para testar)
-"use strict";
+
+import ClasseUsuario, { idade as IdadeUsuario } from './functions';
+
+alert(IdadeUsuario);
+ClasseUsuario.info();
+
+
